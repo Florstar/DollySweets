@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dolly's Sweets</title>
+  <link rel="stylesheet" href="css/estilospropios.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+</head>
+
+<!-- Header rosa -->
+<body>
+  <header class="container-fluid Backgroundnav">
+    <div class="logo">
+      <img src="img/logotransparente.png" alt="Logo Dolly's Sweets" />
+      <h1>Dolly's Sweets</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="servicios.html">Productos</a></li>
+        <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Fin Header rosa -->
+
+      <!--NavBar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid Backgroundnav"> <!--Contenedor de toda la barra de navegación"-->
+
+
+        <!--Imagen Logo Inicial-->
+        <a class="navbar-brand" href="inicio.html"><img src="imagenes/Logoseo.JPG" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+            </li>
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  >
+                Servicios
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="servicios.html">Entrega a domicilio</a></li>
+                <li><a class="dropdown-item" href="servicios.html">Tartas a medida</a></li>
+                <li><a class="dropdown-item" href="servicios.html">Eventos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="servicios.html">Mesas dulces</a></li>
+                  <li><a class="dropdown-item" href="servicios.html">Tartas Especiales</a></li>
+                
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        </div>
+    </div><!--Cierra Contenedor de toda la barra de navegación"-->
+    </nav>
+
+  <section class="hero" id="inicio">
+    <h2>Tartas y pasteles con un toque dulce de nostalgia</h2>
+
+    <a href="#productos" class="cta">Tartas</a>
+    <a href="#productos" class="cta">Individuales</a>
+    <a href="#productos" class="cta">Bites</a>
+    </section>
+
+  <section class="productos" id="productos">
+    <h3>Nuestros Dulces</h3>
+    <div class="grid">
+      <div class="producto">
+        <img src="tarta-rosas.jpg" alt="Tarta vintage con rosas" />
+        <h4>Tarta de Rosas</h4>
+        <p>Desde $25</p>
+      </div>
+      <div class="producto">
+        <img src="pastel-frutas.jpg" alt="Pastel de frutas" />
+        <h4>Pastel de Frutas</h4>
+        <p>Desde $20</p>
+      </div>
+      <!-- Más productos aquí -->
+    </div>
+  </section>
+
+  <!-- Inicia Filtro -->
+
+ <section id="filtro">
+
+    <div class="container">
+  <h2>Filterable Table</h2>
+  <p>Type something in the input field to search the table for first names, last names or emails:</p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <div id="myTable" class="row">
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Frutas</h4>
+                <img src="img/TartadeFrutas.jpg" alt="tartadefrutas"/>
+                <p>Individual $25</p>
+                
+            </div>
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Rosas</h4>
+                <img src="img/Tartaderosas.jpg" alt="tartaderosas"/>
+                <p>Individual $25</p>
+                
+            </div>
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Letras y Números</h4>
+                <img src="img/Tartaletras.png" alt="tartaletras"/>
+                <p>Individual $25</p>
+                
+            </div>
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Limón</h4>
+                <img src="img/Tartadelimon.jpg" alt="tartadelimon"/>
+                <p>Individual $25</p>
+                
+            </div>
+            
+            </div>
+            <div id="myTable" class="row">
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Frutas</h4>
+                <img src="img/TartadeFrutas.jpg" alt="tartadefrutas"/>
+                <p>Individual $25</p>
+                
+            </div>
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Rosas</h4>
+                <img src="img/Tartaderosas.jpg" alt="tartaderosas"/>
+                <p>Individual $25</p>
+                
+            </div>
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Letras y Números</h4>
+                <img src="img/Tartaletras.png" alt="tartaletras"/>
+                <p>Individual $25</p>
+                
+            </div>
+            
+            <div class="producto col-lg-3 col-md-6 col-sm-12">
+                <h4>Tarta de Limón</h4>
+                <img src="img/Tartadelimon.jpg" alt="tartadelimon"/>
+                <p>Individual $25</p>
+                
+            </div>  
+
+    </div>
+  
+</div>
+
+
+
+ </section>
+
+ <!-- Fin Filtro -->
+
+  <section class="sobre" id="sobre">
+    <h3>Sobre Dolly's Sweets</h3>
+    <p>
+      Nacida de la pasión por los postres caseros y los recuerdos de la infancia,
+      Dolly’s Sweets mezcla tradición y diseño en cada pastel.
+    </p>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <h3>Contacto</h3>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu email" required />
+      <textarea placeholder="¿Qué te gustaría pedir?" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dolly's Sweets. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable div").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
+</html>
