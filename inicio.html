@@ -13,67 +13,46 @@
 
 </head>
 
-<!-- Header rosa -->
 <body>
-  <header class="container-fluid Backgroundnav">
-    <div class="logo">
-      <img src="img/logotransparente.png" alt="Logo Dolly's Sweets" />
-      <h1>Dolly's Sweets</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="inicio.html">Inicio</a></li>
-        <li><a href="servicios.html">Productos</a></li>
-        <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
       </ul>
-    </nav>
-  </header>
-
-  <!-- Fin Header rosa -->
-
-      <!--NavBar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid Backgroundnav"> <!--Contenedor de toda la barra de navegación"-->
+    </div>
+  </div>
+</nav>
 
 
-        <!--Imagen Logo Inicial-->
-        <a class="navbar-brand" href="inicio.html"><img src="imagenes/Logoseo.JPG" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
-            </li>
+<!-- Navbar FIN-->
 
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  >
-                Servicios
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="servicios.html">Entrega a domicilio</a></li>
-                <li><a class="dropdown-item" href="servicios.html">Tartas a medida</a></li>
-                <li><a class="dropdown-item" href="servicios.html">Eventos</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="servicios.html">Mesas dulces</a></li>
-                  <li><a class="dropdown-item" href="servicios.html">Tartas Especiales</a></li>
-                
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
 
-        </ul>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        </div>
-    </div><!--Cierra Contenedor de toda la barra de navegación"-->
-    </nav>
+
 
   <section class="hero" id="inicio">
     <h2>Tartas y pasteles con un toque dulce de nostalgia</h2>
@@ -83,30 +62,15 @@
     <a href="#productos" class="cta">Bites</a>
     </section>
 
-  <section class="productos" id="productos">
-    <h3>Nuestros Dulces</h3>
-    <div class="grid">
-      <div class="producto">
-        <img src="tarta-rosas.jpg" alt="Tarta vintage con rosas" />
-        <h4>Tarta de Rosas</h4>
-        <p>Desde $25</p>
-      </div>
-      <div class="producto">
-        <img src="pastel-frutas.jpg" alt="Pastel de frutas" />
-        <h4>Pastel de Frutas</h4>
-        <p>Desde $20</p>
-      </div>
-      <!-- Más productos aquí -->
-    </div>
-  </section>
+  
 
   <!-- Inicia Filtro -->
 
  <section id="filtro">
 
     <div class="container">
-  <h2>Filterable Table</h2>
-  <p>Type something in the input field to search the table for first names, last names or emails:</p>  
+  <h2>Carta</h2>
+  <p>También puedes buscar directamente</p>  
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
   <div id="myTable" class="row">
@@ -143,29 +107,29 @@
             <div id="myTable" class="row">
             
             <div class="producto col-lg-3 col-md-6 col-sm-12">
-                <h4>Tarta de Frutas</h4>
-                <img src="img/TartadeFrutas.jpg" alt="tartadefrutas"/>
+                <h4>Tarta de Arándanos</h4>
+                <img src="img/Tartadearandanos.jpg" alt="tartadearandanos"/>
                 <p>Individual $25</p>
                 
             </div>
             
             <div class="producto col-lg-3 col-md-6 col-sm-12">
-                <h4>Tarta de Rosas</h4>
-                <img src="img/Tartaderosas.jpg" alt="tartaderosas"/>
+                <h4>Tarta de Manzana</h4>
+                <img src="img/Tartademanzana.jpg" alt="tartademanzana"/>
                 <p>Individual $25</p>
                 
             </div>
             
             <div class="producto col-lg-3 col-md-6 col-sm-12">
-                <h4>Tarta de Letras y Números</h4>
-                <img src="img/Tartaletras.png" alt="tartaletras"/>
+                <h4>Tarta de Queso</h4>
+                <img src="img/Tartadequeso.jpg" alt="tartadequeso"/>
                 <p>Individual $25</p>
                 
             </div>
             
             <div class="producto col-lg-3 col-md-6 col-sm-12">
-                <h4>Tarta de Limón</h4>
-                <img src="img/Tartadelimon.jpg" alt="tartadelimon"/>
+                <h4>Tarta Red Velvet</h4>
+                <img src="img/Tartaredvelvet.jpg" alt="tartaredvelvet"/>
                 <p>Individual $25</p>
                 
             </div>  
